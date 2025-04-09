@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - BADKET</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;700&display=swap');
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-image: url(images/badminton.webp);
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: white;
+        }
+
+        .overlay {
+            background: rgba(0, 0, 0, 0.6);
+            width: 100%;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .gallery img {
+            width: 200px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+            font-family: 'Rajdhani', sans-serif;
+            font-weight: 700;
+        }
+
+        p {
+            font-size: 1.5rem;
+            max-width: 800px;
+            line-height: 1.8;
+            font-weight: bold;
+            font-family: 'Rajdhani', sans-serif;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 15px;
+            border-radius: 10px;
+            display: inline-block;
+        }
+
+        .video-container {
+            margin-top: 20px;
+            max-width: 560px;
+            width: 100%;
+        }
+
+        iframe {
+            width: 100%;
+            height: 315px;
+            border-radius: 10px;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 24px;
+            font-size: 1.2rem;
+            background: #ffcc00;
+            color: black;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .button:hover {
+            background: #ffaa00;
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay">
+        
+        <div class="gallery">
+            <img src="images/a1.jpg" alt="Professional Stringing Service">
+            <img src="images/a2.jpg" alt="High-Quality Strings">
+            <img src="images/a3.jpg" alt="Expert Stringing Process">
+            <img src="images/a4.jpg" alt="Badminton Rackets Ready for Pickup">
+            <img src="images/a5.jpg" alt="BADKET Storefront">
+        </div>
+
+     
+        <h1>About BADKET</h1>
+        <p>BADKET is dedicated to providing professional racket stringing services for all badminton enthusiasts. Our goal is to ensure your racket is strung with precision, optimizing performance and durability.</p>
+
+       
+        <div class="video-container">
+            <iframe src="images/Lee Chong Wei - Crazy Speed & SKILLS - The very best.mp4" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        <a href="homepage.html" class="button">Back to Home</a>
+    </div>
+</body>
+</html>

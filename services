@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services - BADKET</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;700&display=swap');
+
+        body {
+            margin: 0;
+            font-family: 'Rajdhani', sans-serif;
+            background-image: url(images/badminton.webp);
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: white;
+        }
+
+        .overlay {
+            background: rgba(0, 0, 0, 0.6);
+            width: 100%;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+
+        .services-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 800px;
+        }
+
+        .service {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .service img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        .service h2 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .service p {
+            font-size: 1.4rem;
+            line-height: 1.6;
+            font-weight: 400;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 24px;
+            font-size: 1.4rem;
+            background: #ffcc00;
+            color: black;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .button:hover {
+            background: #ffaa00;
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay">
+        <h1>Our Services</h1>
+        <div class="services-container">
+            
+            <div class="service">
+                <img src="images/2.jpg" alt="String Replacement">
+                <h2>🎾 String Replacement</h2>
+                <p>Get your racket performing like new with our high-quality string replacement service. We offer a variety of strings to match your playing style, whether you prefer power (BG80), control (BG65), or durability (BG65 Ti). All strings are at the same price.</p>
+            </div>
+
+            <div class="service">
+                <img src="images/1.png" alt="Tension Customization">
+                <h2>🎯 Tension Customization</h2>
+                <p>Optimize your racket's tension for maximum performance. Whether you need high tension for precision or lower tension for power, our experts will string your racket to your exact preference.</p>
+            </div>
+
+            <div class="service">
+                <img src="images/3.jpg" alt="Racket Repair & Maintenance">
+                <h2>🛠️ Racket Repair & Maintenance</h2>
+                <p>We provide professional repairs for broken frames. Keep your racket in top condition and extend its lifespan with our maintenance services.</p>
+            </div>
+
+        </div>
+        <a href="homepage.html" class="button">Back to Home</a>
+    </div>
+</body>
+</html>
